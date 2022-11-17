@@ -11,7 +11,7 @@ h1, h3 {
 }
 
 a {
-    color: var(--primary-color)
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -143,3 +143,33 @@ header h1 span {
 header p {
     max-width: 400px;
 }
+
+/*button*/
+.btn {
+    padding: 0.7em 1.5em;
+    border-radius: 2em;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    margin: 1em 0;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    margin-right: 0.5em;
+}
+
+.btn-primary:hover {
+    background: #009c8e;
+}
+
+.btn-secondary {
+    border: 2px var(--secondary-color) solid;
+    color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+    background: var(--secondary-color);
+    color: #fff;
+}
+
